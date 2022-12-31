@@ -2,10 +2,10 @@ import mysql.connector
 
 def query6funct(name):
     mydb = mysql.connector.connect(
-        host = "db4free.net",
-        user = "omarmins",
-        password = "omar1234",
-        database = "propfinder",
+        host = "",
+        user = "",
+        password = "",
+        database = "",
     )
 
     cursor = mydb.cursor()
