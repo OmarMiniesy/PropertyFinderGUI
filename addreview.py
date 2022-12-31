@@ -2,7 +2,7 @@ import mysql.connector
 
 def AddReviewFunction(agentnum, username, review, rating):
     mydb = mysql.connector.connect(
-        host = "db4free.net",
+        host = "",
         user = "",
         password = "",
         database = "",
