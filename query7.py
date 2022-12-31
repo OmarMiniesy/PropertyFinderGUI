@@ -2,10 +2,10 @@ import mysql.connector
 
 def query7funct(city, pricelessthan, pricegreaterthan, amenity1, amenity2, amenity3): 
     mydb = mysql.connector.connect(
-        host = "db4free.net",
-        user = "omarmins",
-        password = "omar1234",
-        database = "propfinder",
+        host = "",
+        user = "",
+        password = "",
+        database = "",
     )
 
     cursor = mydb.cursor()
